@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "util",
-    "path": "folders/Scripts/src/util.yy",
+    "name": "test",
+    "path": "folders/Scripts/test.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_utility",
+  "name": "scr_test_util",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "tali",
+    "path": "folders/Scripts/src/tali.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_lex",

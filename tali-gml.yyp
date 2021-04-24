@@ -1,10 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"scr_interpret","path":"scripts/scr_interpret/scr_interpret.yy",},"order":2,},
-    {"id":{"name":"scr_parse","path":"scripts/scr_parse/scr_parse.yy",},"order":1,},
+    {"id":{"name":"scr_interpret","path":"scripts/scr_interpret/scr_interpret.yy",},"order":0,},
+    {"id":{"name":"scr_parse","path":"scripts/scr_parse/scr_parse.yy",},"order":2,},
     {"id":{"name":"obj_repl","path":"objects/obj_repl/obj_repl.yy",},"order":0,},
-    {"id":{"name":"scr_lex","path":"scripts/scr_lex/scr_lex.yy",},"order":0,},
-    {"id":{"name":"scr_utility","path":"scripts/scr_utility/scr_utility.yy",},"order":3,},
+    {"id":{"name":"scr_test","path":"scripts/scr_test/scr_test.yy",},"order":1,},
+    {"id":{"name":"scr_lex","path":"scripts/scr_lex/scr_lex.yy",},"order":1,},
+    {"id":{"name":"scr_utility","path":"scripts/scr_utility/scr_utility.yy",},"order":0,},
+    {"id":{"name":"scr_test_tali","path":"scripts/scr_test_tali/scr_test_tali.yy",},"order":2,},
+    {"id":{"name":"scr_test_util","path":"scripts/scr_test_util/scr_test_util.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -38,6 +41,10 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/test.yy","order":4,"resourceVersion":"1.0","name":"test","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/src.yy","order":5,"resourceVersion":"1.0","name":"src","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/src/tali.yy","order":0,"resourceVersion":"1.0","name":"tali","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/src/util.yy","order":1,"resourceVersion":"1.0","name":"util","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

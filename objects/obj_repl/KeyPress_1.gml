@@ -16,7 +16,10 @@ else if keyboard_check(vk_shift) && keyboard_check(vk_enter) {
 }
 else if keyboard_check(vk_enter) {
 	ds_list_add(history, string_copy(expr, 1, string_length(expr)));
-	ts = tokenize(expr);
+	var ts = tokenize(expr);
+	var m = parse(ts);
+	print_list(ts);
+	print_map(ds_list_find_value(m, 0));
 	expr = "";
 	keyboard_string = "";
 }
